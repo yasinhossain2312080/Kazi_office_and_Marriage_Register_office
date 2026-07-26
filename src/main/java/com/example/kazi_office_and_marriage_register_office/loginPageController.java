@@ -14,4 +14,8 @@ public class loginPageController {
     @javafx.fxml.FXML
     public void createNewButtonOnAction(ActionEvent actionEvent) {
     }
+
+    @javafx.fxml.FXML
+    public void forgetPasswordButtonOnAction(ActionEvent actionEvent) {
+    }
 }
