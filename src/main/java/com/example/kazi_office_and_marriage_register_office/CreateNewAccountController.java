@@ -1,14 +1,10 @@
 package com.example.kazi_office_and_marriage_register_office;
 
 import javafx.event.ActionEvent;
-import javafx.scene.control.Button;
 
-public class SetPasswordController {
+public class CreateNewAccountController {
     @javafx.fxml.FXML
-    private Button resetPassword;
-
-    @javafx.fxml.FXML
-    public void resetPasswordOnAction(ActionEvent actionEvent) {
+    public void createNewAccountOnAction(ActionEvent actionEvent) {
     }
 
     @javafx.fxml.FXML
