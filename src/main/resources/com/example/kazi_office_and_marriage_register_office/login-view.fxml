@@ -28,7 +28,7 @@
                   <Font size="13.0" />
                </font>
             </Label>
-            <Button layoutX="145.0" layoutY="374.0" mnemonicParsing="false" onAction="#createNewButtonOnAction" prefHeight="45.0" prefWidth="220.0" style="-fx-background-color: #1E3F46; -fx-text-fill: #F5F5F5; -fx-background-radius: 8;" text="Create New Account">
+            <Button layoutX="145.0" layoutY="374.0" mnemonicParsing="false" onAction="#createNewAccountOnAction" prefHeight="45.0" prefWidth="220.0" style="-fx-background-color: #1E3F46; -fx-text-fill: #F5F5F5; -fx-background-radius: 8;" text="Create New Account">
                <font>
                   <Font name="System Bold" size="17.0" />
                </font>

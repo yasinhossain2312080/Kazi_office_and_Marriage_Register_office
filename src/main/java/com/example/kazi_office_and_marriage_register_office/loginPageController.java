@@ -20,16 +20,8 @@ public class loginPageController {
     public void loginButtonOnAction(ActionEvent actionEvent) {
     }
 
-    @javafx.fxml.FXML
-    public void createNewButtonOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("create-new-account-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load());
-        Stage nextStage = (Stage)((Node) actionEvent.getSource()).getScene().getWindow();
-        nextStage.setTitle("Create New Account Page");
-        nextStage.setScene(scene);
-        nextStage.show();
+    @Deprecated
 
-    }
 
     @javafx.fxml.FXML
     public void forgetPasswordButtonOnAction(ActionEvent actionEvent) throws IOException {
@@ -37,6 +29,16 @@ public class loginPageController {
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage = (Stage)((Node) actionEvent.getSource()).getScene().getWindow();
         nextStage.setTitle("Forget Password Page");
+        nextStage.setScene(scene);
+        nextStage.show();
+    }
+
+    @javafx.fxml.FXML
+    public void createNewAccountOnAction(ActionEvent actionEvent) throws IOException{
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("create-new-account-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage nextStage = (Stage)((Node) actionEvent.getSource()).getScene().getWindow();
+        nextStage.setTitle("Create New Account Page");
         nextStage.setScene(scene);
         nextStage.show();
     }

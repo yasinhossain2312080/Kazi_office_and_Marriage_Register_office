@@ -9,11 +9,11 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class CreateNewAccountController {
-    @javafx.fxml.FXML
+    @Deprecated
     public void createNewAccountOnAction(ActionEvent actionEvent) {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void backToLoginPageOnAction(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("login-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
