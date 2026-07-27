@@ -8,30 +8,29 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-
-public class MarriageConsentController
+public class ConfirmMarriageController
 {
     @javafx.fxml.FXML
     public void initialize() {
     }
 
     @javafx.fxml.FXML
-    public void ApplyAndGoToPersonalInformationButtonOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("personal-information-view.fxml"));
+    public void confirmAndGoToReviewApplicationButtonOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("review-application-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage = (Stage)((Node) actionEvent.getSource()).getScene().getWindow();
+        nextStage.setTitle("Review Application!");
+        nextStage.setScene(scene);
+        nextStage.show();
+    }
+    @javafx.fxml.FXML
+    public void backAndGoToPersonalInformationPageButtonOnActon(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("personal-information-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage nextStage = new Stage();
         nextStage.setTitle("Personal Information!");
         nextStage.setScene(scene);
         nextStage.show();
     }
 
-    @javafx.fxml.FXML
-    public void backAndGoToBrideDashBoardButtonOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Bride-DashBoard-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load());
-        Stage nextStage = new Stage();
-        nextStage.setTitle("Bride DashBoard!");
-        nextStage.setScene(scene);
-        nextStage.show();
-    }
 }
