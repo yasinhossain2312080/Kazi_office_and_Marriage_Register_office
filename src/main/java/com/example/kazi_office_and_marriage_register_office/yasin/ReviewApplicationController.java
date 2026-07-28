@@ -1,8 +1,8 @@
-package com.example.kazi_office_and_marriage_register_office;
+package com.example.kazi_office_and_marriage_register_office.yasin;
 
+import com.example.kazi_office_and_marriage_register_office.HelloApplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
@@ -39,7 +39,7 @@ public class ReviewApplicationController
         myAlert.setContentText("Your Application ID :??");
         myAlert.showAndWait();
 
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Bride-DashBoard-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/Bride-DashBoard-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage = new Stage();
         nextStage.setTitle("Bride DashBoard!");
@@ -49,7 +49,7 @@ public class ReviewApplicationController
 
     @javafx.fxml.FXML
     public void backAndGoToPersonalInformationButtonOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("personal-information-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/personal-information-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage = new Stage();
         nextStage.setTitle("Personal Information!");

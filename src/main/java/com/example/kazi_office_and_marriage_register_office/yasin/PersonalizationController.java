@@ -1,5 +1,6 @@
-package com.example.kazi_office_and_marriage_register_office;
+package com.example.kazi_office_and_marriage_register_office.yasin;
 
+import com.example.kazi_office_and_marriage_register_office.HelloApplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -35,7 +36,7 @@ public class PersonalizationController
 
     @javafx.fxml.FXML
     public void nextAndGoToConfirmMarriagePageButtonOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("confirm-marriage-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/confirm-marriage-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage =(Stage)((Node)actionEvent.getSource()).getScene().getWindow();
         nextStage.setTitle("Confirm Marriage!");
@@ -45,7 +46,7 @@ public class PersonalizationController
 
     @javafx.fxml.FXML
     public void backAndGoToMarriageConsentPageButtonOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("marriageConsent-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/marriageConsent-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage = new Stage();
         nextStage.setTitle("Marriage Consent!");

@@ -6,7 +6,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="291.0" prefWidth="496.0" style="-fx-background-color: #FFF8F3;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kazi_office_and_marriage_register_office.MarriageConsentController">
+<AnchorPane prefHeight="291.0" prefWidth="496.0" style="-fx-background-color: #FFF8F3;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kazi_office_and_marriage_register_office.yasin.MarriageConsentController">
    <children>
       <Label layoutX="154.0" layoutY="32.0" prefHeight="39.0" prefWidth="208.0" text="Marriage Consent" textFill="#0d9c6f">
          <font>

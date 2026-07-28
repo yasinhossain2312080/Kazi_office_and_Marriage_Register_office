@@ -6,7 +6,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFF8F3;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kazi_office_and_marriage_register_office.ReviewApplicationController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFF8F3;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kazi_office_and_marriage_register_office.yasin.ReviewApplicationController">
    <children>
       <Label layoutX="213.0" layoutY="46.0" prefHeight="26.0" prefWidth="222.0" text="Please Check Your Application" textFill="#ab1340">
          <font>

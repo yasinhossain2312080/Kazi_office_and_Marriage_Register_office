@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="198.0" prefWidth="435.0" style="-fx-background-color: #FFF8F3;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kazi_office_and_marriage_register_office.ConfirmMarriageController">
+<AnchorPane prefHeight="198.0" prefWidth="435.0" style="-fx-background-color: #FFF8F3;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kazi_office_and_marriage_register_office.yasin.ConfirmMarriageController">
    <children>
       <Label layoutX="124.0" layoutY="28.0" prefHeight="50.0" prefWidth="186.0" text="Confirm Marriage !!" textFill="#db1f41">
          <font>

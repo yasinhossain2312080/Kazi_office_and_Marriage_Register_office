@@ -1,5 +1,6 @@
-package com.example.kazi_office_and_marriage_register_office;
+package com.example.kazi_office_and_marriage_register_office.yasin;
 
+import com.example.kazi_office_and_marriage_register_office.HelloApplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -52,11 +53,6 @@ public class UploadDocumentsController
         myAlert.setContentText("Your documents have been uploaded successfully");
         myAlert.showAndWait();
 
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Bride-DashBoard-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load());
-        Stage nextStage = new Stage();
-        nextStage.setTitle("Bride DashBoard!");
-        nextStage.setScene(scene);
-        nextStage.show();
+
     }
 }

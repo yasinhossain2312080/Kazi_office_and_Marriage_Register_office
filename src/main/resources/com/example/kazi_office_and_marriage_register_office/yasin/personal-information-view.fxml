@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="382.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kazi_office_and_marriage_register_office.PersonalizationController">
+<AnchorPane prefHeight="382.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kazi_office_and_marriage_register_office.yasin.PersonalizationController">
    <children>
       <TextField fx:id="fullNameTextField" layoutX="114.0" layoutY="58.0" />
       <TextField fx:id="fatherNameTextField" layoutX="114.0" layoutY="100.0" />
