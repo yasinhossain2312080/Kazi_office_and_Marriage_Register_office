@@ -39,17 +39,17 @@
             <Label layoutX="18.0" layoutY="11.0" text="Appointment ID" textFill="#f2ecec" />
             <TextField layoutX="14.0" layoutY="37.0" prefHeight="25.0" prefWidth="247.0" style="-fx-background-color: gray;" />
             <Label layoutX="16.0" layoutY="75.0" text="Date" textFill="#f2ecec" />
-            <TextField editable="false" layoutX="12.0" layoutY="101.0" prefHeight="25.0" prefWidth="247.0" style="-fx-background-color: gray;" />
+            <TextField layoutX="12.0" layoutY="101.0" prefHeight="25.0" prefWidth="247.0" style="-fx-background-color: gray;" />
             <Label layoutX="18.0" layoutY="136.0" text="Time" textFill="#f2ecec" />
-            <TextField editable="false" layoutX="14.0" layoutY="162.0" prefHeight="25.0" prefWidth="247.0" style="-fx-background-color: gray;" />
+            <TextField layoutX="14.0" layoutY="162.0" prefHeight="25.0" prefWidth="247.0" style="-fx-background-color: gray;" />
             <Label layoutX="18.0" layoutY="196.0" text="Bride Name" textFill="#f2ecec" />
-            <TextField layoutX="14.0" layoutY="222.0" prefHeight="25.0" prefWidth="247.0" style="-fx-background-color: gray;" />
+            <TextField editable="false" layoutX="14.0" layoutY="222.0" prefHeight="25.0" prefWidth="247.0" style="-fx-background-color: gray;" />
             <Label layoutX="16.0" layoutY="255.0" text="Groom Name" textFill="#f2ecec" />
-            <TextField layoutX="12.0" layoutY="281.0" prefHeight="25.0" prefWidth="247.0" style="-fx-background-color: gray;" />
+            <TextField editable="false" layoutX="12.0" layoutY="281.0" prefHeight="25.0" prefWidth="247.0" style="-fx-background-color: gray;" />
             <Label layoutX="18.0" layoutY="318.0" text="Contact Number" textFill="#f2ecec" />
-            <TextField layoutX="14.0" layoutY="344.0" prefHeight="25.0" prefWidth="247.0" style="-fx-background-color: gray;" />
+            <TextField editable="false" layoutX="14.0" layoutY="344.0" prefHeight="25.0" prefWidth="247.0" style="-fx-background-color: gray;" />
             <Label layoutX="16.0" layoutY="375.0" text="Status" textFill="#f2ecec" />
-            <TextField layoutX="12.0" layoutY="401.0" prefHeight="25.0" prefWidth="247.0" style="-fx-background-color: gray;" />
+            <TextField editable="false" layoutX="12.0" layoutY="401.0" prefHeight="25.0" prefWidth="247.0" style="-fx-background-color: gray;" />
             <Button layoutX="18.0" layoutY="464.0" mnemonicParsing="false" onAction="#conFirmButtonOnAction" prefWidth="110.0" style="-fx-background-color: #C77D2A; -fx-border-radius: 5;" text="Confirm" />
             <Button layoutX="137.0" layoutY="464.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefWidth="110.0" style="-fx-background-color: #C77D2A; -fx-border-radius: 5;" text="Cancel" />
          </children>
