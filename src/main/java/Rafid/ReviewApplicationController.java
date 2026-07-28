@@ -12,14 +12,6 @@ public class ReviewApplicationController {
     }
 
     @javafx.fxml.FXML
-    public void verifyBrideOnAction(ActionEvent actionEvent) {
-    }
-
-    @javafx.fxml.FXML
-    public void verifyGroomOnAction(ActionEvent actionEvent) {
-    }
-
-    @javafx.fxml.FXML
     public void rejectMarriageOnAction(ActionEvent actionEvent) {
     }
 }
