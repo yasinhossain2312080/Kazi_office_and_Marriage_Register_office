@@ -20,13 +20,19 @@ public class DashBoardController
     }
 
     @javafx.fxml.FXML
-    public void downloadCertificateButtonOnAction(ActionEvent actionEvent)  throws IOException {
+    public void downloadCertificateButtonOnAction(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/download-certificate-view.fxml"));
         boarderPaneDashBoard.setCenter(fxmlLoader.load());
     }
 
     @javafx.fxml.FXML
-    public void logoutButtonOnAction(ActionEvent actionEvent) {
+    public void logoutButtonOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("login-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage nextStage =(Stage)((Node)actionEvent.getSource()).getScene().getWindow();
+        nextStage.setTitle("login Page!");
+        nextStage.setScene(scene);
+        nextStage.show();
     }
 
     @javafx.fxml.FXML
