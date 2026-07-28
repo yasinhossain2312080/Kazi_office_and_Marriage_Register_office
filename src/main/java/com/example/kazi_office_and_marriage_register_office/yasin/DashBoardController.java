@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class BrideDashBoardController
+public class DashBoardController
 {
     @javafx.fxml.FXML
     private BorderPane boarderPaneDashBoard;

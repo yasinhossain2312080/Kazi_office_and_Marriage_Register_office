@@ -27,11 +27,11 @@ public class ApplicationAndAppointmentStatusController
     }
 
     @javafx.fxml.FXML
-    public void backAndGoToBrideDashBoard(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/Bride-DashBoard-view.fxml"));
+    public void backAndGoToDashBoard(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/DashBoard-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage = new Stage();
-        nextStage.setTitle("Bride DashBoard!");
+        nextStage.setTitle("DashBoard!");
         nextStage.setScene(scene);
         nextStage.show();
     }

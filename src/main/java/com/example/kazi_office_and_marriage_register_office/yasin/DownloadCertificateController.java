@@ -21,7 +21,7 @@ public class DownloadCertificateController
     }
 
     @javafx.fxml.FXML
-    public void downloadPdfAndGoToBrideDashBoardButtonOnAction(ActionEvent actionEvent) throws IOException {
+    public void downloadPdfAndGoToDashBoardButtonOnAction(ActionEvent actionEvent) throws IOException {
 
         downloadPdfStatusTextFiled.setText("Downloaded PDF");
 
@@ -31,20 +31,20 @@ public class DownloadCertificateController
         myAlert.setContentText("Certificate downloaded successfully");
         myAlert.showAndWait();
 
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/Bride-DashBoard-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/DashBoard-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage = new Stage();
-        nextStage.setTitle("Bride DashBoard!");
+        nextStage.setTitle("DashBoard!");
         nextStage.setScene(scene);
         nextStage.show();
     }
 
     @javafx.fxml.FXML
-    public void backAndGoToBrideDashBoardButtonOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/Bride-DashBoard-view.fxml"));
+    public void backAndGoToDashBoardButtonOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/DashBoard-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage = new Stage();
-        nextStage.setTitle("Bride DashBoard!");
+        nextStage.setTitle("DashBoard!");
         nextStage.setScene(scene);
         nextStage.show();
     }

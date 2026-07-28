@@ -48,6 +48,6 @@
       <Label fx:id="appointmentNumber" layoutX="218.0" layoutY="230.0" prefHeight="18.0" prefWidth="190.0" />
       <Label fx:id="marriageDateLabel" layoutX="218.0" layoutY="271.0" prefHeight="18.0" prefWidth="190.0" />
       <Label fx:id="timeSlotLabel" layoutX="218.0" layoutY="317.0" prefHeight="18.0" prefWidth="190.0" />
-      <Button layoutX="375.0" layoutY="349.0" mnemonicParsing="false" onAction="#backAndGoToBrideDashBoard" prefHeight="26.0" prefWidth="98.0" text="BACK" />
+      <Button layoutX="375.0" layoutY="349.0" mnemonicParsing="false" onAction="#backAndGoToDashBoard" prefHeight="26.0" prefWidth="98.0" text="BACK" />
    </children>
 </AnchorPane>

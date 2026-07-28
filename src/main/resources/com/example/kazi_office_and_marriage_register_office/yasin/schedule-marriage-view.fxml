@@ -19,7 +19,7 @@
       <DatePicker fx:id="marriageDateDP" layoutX="183.0" layoutY="106.0" prefHeight="26.0" prefWidth="150.0" />
       <Label layoutX="62.0" layoutY="191.0" text="Available Time Slot :" />
       <ComboBox fx:id="availableTimeSlotComboBox" layoutX="183.0" layoutY="187.0" prefWidth="150.0" />
-      <Button layoutX="115.0" layoutY="283.0" mnemonicParsing="false" onAction="#confirmAndGoToBrideDashBoardButtonOnAction" prefHeight="26.0" prefWidth="106.0" text="CONFIRM" />
-      <Button layoutX="309.0" layoutY="283.0" mnemonicParsing="false" onAction="#backAndGoToBrideDashBoardButtonOnAction" prefHeight="26.0" prefWidth="106.0" text="BACK" />
+      <Button layoutX="115.0" layoutY="283.0" mnemonicParsing="false" onAction="#confirmAndGoToDashBoardButtonOnAction" prefHeight="26.0" prefWidth="106.0" text="CONFIRM" />
+      <Button layoutX="309.0" layoutY="283.0" mnemonicParsing="false" onAction="#backAndGoToDashBoardButtonOnAction" prefHeight="26.0" prefWidth="106.0" text="BACK" />
    </children>
 </AnchorPane>

@@ -20,7 +20,7 @@
          </font>
       </Label>
       <TextField fx:id="downloadPdfStatusTextFiled" editable="false" layoutX="138.0" layoutY="141.0" prefHeight="26.0" prefWidth="145.0" promptText="Download Status " />
-      <Button layoutX="61.0" layoutY="198.0" mnemonicParsing="false" onAction="#downloadPdfAndGoToBrideDashBoardButtonOnAction" text="Download PDF" />
-      <Button layoutX="281.0" layoutY="197.0" mnemonicParsing="false" onAction="#backAndGoToBrideDashBoardButtonOnAction" prefHeight="26.0" prefWidth="94.0" text="BACK" />
+      <Button layoutX="61.0" layoutY="198.0" mnemonicParsing="false" onAction="#downloadPdfAndGoToDashBoardButtonOnAction" text="Download PDF" />
+      <Button layoutX="281.0" layoutY="197.0" mnemonicParsing="false" onAction="#backAndGoToDashBoardButtonOnAction" prefHeight="26.0" prefWidth="94.0" text="BACK" />
    </children>
 </AnchorPane>

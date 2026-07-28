@@ -28,10 +28,10 @@ public class CorrectionRequestController
 
     @javafx.fxml.FXML
     public void backAndGoToDashBoardButtonOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/Bride-DashBoard-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/DashBoard-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage = new Stage();
-        nextStage.setTitle("Bride DashBoard!");
+        nextStage.setTitle("DashBoard!");
         nextStage.setScene(scene);
         nextStage.show();
     }
@@ -45,10 +45,10 @@ public class CorrectionRequestController
                                   "The Marriage Registrar Office has been notified.");
         myAlert.showAndWait();
 
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/Bride-DashBoard-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/DashBoard-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage = new Stage();
-        nextStage.setTitle("Bride DashBoard!");
+        nextStage.setTitle("DashBoard!");
         nextStage.setScene(scene);
         nextStage.show();
     }

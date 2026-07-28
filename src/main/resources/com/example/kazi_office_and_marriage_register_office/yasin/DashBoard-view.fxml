@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane fx:id="boarderPaneDashBoard" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="468.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kazi_office_and_marriage_register_office.yasin.BrideDashBoardController">
+<BorderPane fx:id="boarderPaneDashBoard" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="468.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kazi_office_and_marriage_register_office.yasin.DashBoardController">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
@@ -57,7 +57,7 @@
    <center>
       <AnchorPane prefHeight="406.0" prefWidth="537.0" style="-fx-background-color: #FFF8F3;" BorderPane.alignment="CENTER">
          <children>
-            <Label layoutX="138.0" layoutY="157.0" prefHeight="102.0" prefWidth="236.0" text="WELCOME , Bride !" textFill="#17532b">
+            <Label layoutX="161.0" layoutY="143.0" prefHeight="102.0" prefWidth="153.0" text="WELCOME !" textFill="#17532b">
                <font>
                   <Font size="28.0" />
                </font>

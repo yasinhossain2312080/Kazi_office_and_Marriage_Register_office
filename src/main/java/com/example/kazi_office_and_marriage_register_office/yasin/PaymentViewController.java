@@ -28,7 +28,7 @@ public class PaymentViewController
     }
 
     @javafx.fxml.FXML
-    public void payAndGoToBrideDashBoard(ActionEvent actionEvent) throws IOException {
+    public void payAndGoToDashBoard(ActionEvent actionEvent) throws IOException {
 
         // Receipt number code
 
@@ -38,20 +38,20 @@ public class PaymentViewController
         myAlert.setContentText("Receipt No:");
         myAlert.showAndWait();
 
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/Bride-DashBoard-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/DashBoard-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage = new Stage();
-        nextStage.setTitle("Bride DashBoard!");
+        nextStage.setTitle("DashBoard!");
         nextStage.setScene(scene);
         nextStage.show();
     }
 
     @javafx.fxml.FXML
-    public void backAndGoToBrideDashBoard(ActionEvent actionEvent)  throws IOException  {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/Bride-DashBoard-view.fxml"));
+    public void backAndGoToDashBoard(ActionEvent actionEvent)  throws IOException  {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/DashBoard-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage = new Stage();
-        nextStage.setTitle("Bride DashBoard!");
+        nextStage.setTitle("DashBoard!");
         nextStage.setScene(scene);
         nextStage.show();
     }

@@ -34,10 +34,10 @@ public class EditCurrentInformationController
         myAlert.setContentText("Your Information Update successfully");
         myAlert.showAndWait();
 
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/Bride-DashBoard-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/DashBoard-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage = new Stage();
-        nextStage.setTitle("Bride DashBoard!");
+        nextStage.setTitle("DashBoard!");
         nextStage.setScene(scene);
         nextStage.show();
     }
