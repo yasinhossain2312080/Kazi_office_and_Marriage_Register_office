@@ -36,7 +36,7 @@
       </HBox>
    </top>
    <left>
-      <VBox prefHeight="470.0" prefWidth="290.0" style="-fx-background-color: #0E2227; -fx-padding: 20; -fx-spacing: 15;" BorderPane.alignment="CENTER">
+      <VBox prefHeight="470.0" prefWidth="270.0" style="-fx-background-color: #0E2227; -fx-padding: 20; -fx-spacing: 15;" BorderPane.alignment="CENTER">
          <children>
             <Label style="-fx-text-fill: #F5F5F5;" text="Application ID" />
             <TextField editable="false" prefHeight="35.0" prefWidth="180.0" style="-fx-background-color: gray;" />
