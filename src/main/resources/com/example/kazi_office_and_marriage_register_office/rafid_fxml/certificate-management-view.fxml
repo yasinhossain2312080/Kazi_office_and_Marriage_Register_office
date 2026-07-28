@@ -15,7 +15,7 @@
 <?import javafx.scene.layout.Region?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: linear-gradient(to bottom right, #2C7A7B, #16353D);" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Rafid.CertificateManagementController">
+<BorderPane fx:id="certificateManagementPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: linear-gradient(to bottom right, #2C7A7B, #16353D);" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kazi_office_and_marriage_register_office.Rafid.CertificateManagementController">
    <top>
       <HBox alignment="CENTER_LEFT" prefHeight="60.0" prefWidth="200.0" spacing="15.0" style="-fx-background-color: #0E2227; -fx-padding: 15;" BorderPane.alignment="CENTER">
          <children>
@@ -82,7 +82,7 @@
             </TableView>
             <Label layoutX="18.0" layoutY="388.0" text="Search " textFill="#f2ecec" />
             <TextField layoutX="71.0" layoutY="383.0" prefHeight="26.0" prefWidth="199.0" style="-fx-background-color: gray;" />
-            <Button layoutX="289.0" layoutY="383.0" mnemonicParsing="false" onAction="#searchRegisteredMarriageFilterOnAction" style="-fx-background-color: #D88C3A; -fx-text-fill: #F5F5F5; -fx-background-radius: 5;" text="Search" />
+            <Button layoutX="289.0" layoutY="383.0" mnemonicParsing="false" onAction="#searchRegisteredMarriageOnAction" style="-fx-background-color: #D88C3A; -fx-text-fill: #F5F5F5; -fx-background-radius: 5;" text="Search" />
          </children>
       </AnchorPane>
    </center>

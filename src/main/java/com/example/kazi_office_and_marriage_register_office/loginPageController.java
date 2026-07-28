@@ -17,7 +17,13 @@ public class loginPageController {
     private Label Hudai;
 
     @javafx.fxml.FXML
-    public void loginButtonOnAction(ActionEvent actionEvent) {
+    public void loginButtonOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("rafid_fxml/registrar-dashboard-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage nextStage = (Stage)((Node) actionEvent.getSource()).getScene().getWindow();
+        nextStage.setTitle("Forget Password Page");
+        nextStage.setScene(scene);
+        nextStage.show();
     }
 
     @Deprecated
