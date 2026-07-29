@@ -18,17 +18,29 @@ public class loginPageController {
     private ComboBox<String> selectRoleUserLoginComboBox;
 
     public void initialize(){
-        selectRoleUserLoginComboBox.getItems().setAll("Bride", "Groom","Kazi","Registrar","Witness","Accountant","Admin");
+        selectRoleUserLoginComboBox.getItems().setAll("Bride", "Groom","Kazi","Registrar","Witness","Admin");
     }
 
-    @javafx.fxml.FXML
-    public void loginButtonOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yasin/DashBoard-view.fxml"));
+    public void loginMethod(String fxmlAddress, ActionEvent actionEvent) throws IOException{
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource(fxmlAddress));
         Scene scene = new Scene(fxmlLoader.load());
         Stage nextStage = (Stage)((Node) actionEvent.getSource()).getScene().getWindow();
         nextStage.setTitle("DashBoard!");
         nextStage.setScene(scene);
         nextStage.show();
+    }
+
+    @javafx.fxml.FXML
+    public void loginButtonOnAction(ActionEvent actionEvent) throws IOException {
+        if (selectRoleUserLoginComboBox.getValue().equals("Bride") ||selectRoleUserLoginComboBox.getValue().equals("Groom") ){
+            loginMethod("yasin/DashBoard-view.fxml", actionEvent);
+        } else if (selectRoleUserLoginComboBox.getValue().equals("Kazi")) {
+            loginMethod("rafid_fxml/kazi-dashboard-view.fxml", actionEvent);
+        } else if (selectRoleUserLoginComboBox.getValue().equals("Registrar")) {
+            loginMethod("rafid_fxml/registrar-dashboard-view.fxml", actionEvent);
+        } else if (selectRoleUserLoginComboBox.getValue().equals("Admin")) {
+            loginMethod("sayed/dashboard-view.fxml", actionEvent);
+        }
     }
 
 
