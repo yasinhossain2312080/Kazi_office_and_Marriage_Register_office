@@ -12,11 +12,11 @@
 <?import javafx.scene.text.Font?>
 
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="677.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="677.0" xmlns="http://javafx.com/javafx/26" fx:controller="com.example.kazi_office_and_marriage_register_office.Bushra.ParticipationHistory" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <HBox prefHeight="74.0" prefWidth="600.0" BorderPane.alignment="CENTER">
          <children>
-            <Label prefHeight="140.0" prefWidth="600.0" text="                  Participation History">
+            <Label prefHeight="74.0" prefWidth="689.0" text="                     Participation History">
                <font>
                   <Font size="30.0" />
                </font>
@@ -39,6 +39,7 @@
             <TextField layoutX="115.0" layoutY="142.0" />
             <Button layoutX="29.0" layoutY="188.0" mnemonicParsing="false" text="Search" />
             <Button layoutX="33.0" layoutY="223.0" mnemonicParsing="false" text="Clear" />
+            <Button layoutX="35.0" layoutY="258.0" mnemonicParsing="false" onAction="#backonaction" text="back" />
          </children>
       </Pane>
    </left>

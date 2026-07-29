@@ -12,7 +12,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456.0" prefWidth="741.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="741.0" xmlns="http://javafx.com/javafx/26" fx:controller="com.example.kazi_office_and_marriage_register_office.Bushra.MarriageAppointment" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <HBox prefHeight="75.0" prefWidth="600.0" BorderPane.alignment="CENTER">
          <children>
@@ -48,6 +48,7 @@
             <Button layoutX="19.0" layoutY="340.0" mnemonicParsing="false" text="Digital Signature" />
             <Button layoutX="153.0" layoutY="302.0" mnemonicParsing="false" text="Verify Information" />
             <Button layoutX="137.0" layoutY="340.0" mnemonicParsing="false" text="Download Confirmation" />
+            <Button layoutX="111.0" layoutY="374.0" mnemonicParsing="false" onAction="#backonaction" text="Back" />
          </children>
       </Pane>
    </left>

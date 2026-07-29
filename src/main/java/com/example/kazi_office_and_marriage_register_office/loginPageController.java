@@ -40,6 +40,8 @@ public class loginPageController {
             loginMethod("rafid_fxml/registrar-dashboard-view.fxml", actionEvent);
         } else if (selectRoleUserLoginComboBox.getValue().equals("Admin")) {
             loginMethod("sayed/dashboard-view.fxml", actionEvent);
+        } else if (selectRoleUserLoginComboBox.getValue().equals("Witness")){
+            loginMethod("Bushra FXML/WitnessDashboard.fxml", actionEvent);
         }
     }
 
