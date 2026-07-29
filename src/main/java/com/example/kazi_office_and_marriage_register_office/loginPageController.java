@@ -18,7 +18,7 @@ public class loginPageController {
     private ComboBox<String> selectRoleUserLoginComboBox;
 
     public void initialize(){
-        selectRoleUserLoginComboBox.getItems().setAll("Bride", "Groom","Kazi","Registrar","Witness","Admin");
+        selectRoleUserLoginComboBox.getItems().setAll("Bride", "Groom","Kazi","Registrar","Witness","Accountant");
     }
 
     public void loginMethod(String fxmlAddress, ActionEvent actionEvent) throws IOException{
@@ -38,7 +38,7 @@ public class loginPageController {
             loginMethod("rafid_fxml/kazi-dashboard-view.fxml", actionEvent);
         } else if (selectRoleUserLoginComboBox.getValue().equals("Registrar")) {
             loginMethod("rafid_fxml/registrar-dashboard-view.fxml", actionEvent);
-        } else if (selectRoleUserLoginComboBox.getValue().equals("Admin")) {
+        } else if (selectRoleUserLoginComboBox.getValue().equals("Accountant")) {
             loginMethod("sayed/dashboard-view.fxml", actionEvent);
         } else if (selectRoleUserLoginComboBox.getValue().equals("Witness")){
             loginMethod("Bushra FXML/WitnessDashboard.fxml", actionEvent);
