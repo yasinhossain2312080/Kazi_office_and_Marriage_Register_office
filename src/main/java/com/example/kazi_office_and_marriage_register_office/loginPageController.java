@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
@@ -12,9 +13,13 @@ import java.io.IOException;
 
 public class loginPageController {
     @javafx.fxml.FXML
-    private AnchorPane loginViewPage;
-    @javafx.fxml.FXML
     private Label Hudai;
+    @javafx.fxml.FXML
+    private ComboBox<String> selectRoleUserLoginComboBox;
+
+    public void initialize(){
+        selectRoleUserLoginComboBox.getItems().setAll("Bride", "Groom","Kazi","Registrar","Witness","Accountant","Admin");
+    }
 
     @javafx.fxml.FXML
     public void loginButtonOnAction(ActionEvent actionEvent) throws IOException {
@@ -25,8 +30,6 @@ public class loginPageController {
         nextStage.setScene(scene);
         nextStage.show();
     }
-
-    @Deprecated
 
 
     @javafx.fxml.FXML
